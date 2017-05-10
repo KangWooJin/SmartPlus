@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="seose.com.sam.ListActivity">
+
+
+    <include
+        android:id="@+id/in_main_titlebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/titlebar"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/in_main_titlebar">
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:numColumns="4"
+            android:layout_margin="50px"
+
+
+            android:id="@+id/gv_list_list" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/nz_addfuniture"
+        android:visibility="invisible"
+        android:layout_marginLeft="60px"
+        android:layout_marginRight="60px"
+        android:layout_height="wrap_content"
+        android:id="@+id/mv_list_adddlfghldyd" />
+
+</RelativeLayout>

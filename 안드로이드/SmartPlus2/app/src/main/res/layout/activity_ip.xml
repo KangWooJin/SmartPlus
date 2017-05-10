@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="seose.com.sam.IpActivity">
+
+    <EditText
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_ip_ip"
+        android:hint="IP"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:hint="PORT"
+        android:id="@+id/et_ip_port"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:id="@+id/bt_ip_ok"/>
+</LinearLayout>

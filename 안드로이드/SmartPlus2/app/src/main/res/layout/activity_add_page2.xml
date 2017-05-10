@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="seose.com.sam.AddPage2Activity">
+
+    <include
+        android:id="@+id/in_main_titlebar"
+        layout="@layout/titlebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_addpage2_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_addpage2_question"
+            android:layout_width="380px"
+            android:layout_height="380px"
+            android:src="@drawable/nz_sf_00" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_addpage2_mintemper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최소온도 : ?"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_addpage2_maxtemper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최대온도 : ?"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_addpage2_minpower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최소세기 : ?"
+
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_addpage2_maxpower"
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최대세기 : ?"
+
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_addpage2_isreflesh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="갱신유무 : ?"
+
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/tv_addpage2_refleshtemper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="갱신온도 : ?"
+
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/tv_addpage2_refleshpower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="갱신파워 : ?"
+
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_addpage2_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50px"
+        android:text="원격 제어 할 에어컨의\n제품명을 검색하세요"
+        android:textColor="#ff0094b0"
+        android:textSize="100px" />
+
+    <EditText
+        android:id="@+id/et_addpage2_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px" />
+
+    <ListView
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_margin="10px"
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:id="@+id/lv_addpage2_list"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:text="다음단계"
+        android:id="@+id/bt_addpage2_next"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

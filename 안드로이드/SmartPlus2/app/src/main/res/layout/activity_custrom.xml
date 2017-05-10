@@ -1,0 +1,227 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="seose.com.sam.CustromActivity">
+
+    <include
+        android:id="@+id/in_main_titlebar"
+        layout="@layout/titlebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50px"
+        android:src="@drawable/nz_sf_00" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:text="최소온도 :"
+                android:textColor="#000000"
+                android:textSize="60px" />
+
+            <EditText
+                android:id="@+id/et_custom_0"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:text="최소온도 :"
+                android:textColor="#000000"
+                android:textSize="60px" />
+
+            <EditText
+                android:id="@+id/et_custom_1"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:text="최대온도 :"
+                android:textColor="#000000"
+                android:textSize="60px" />
+
+            <EditText
+                android:id="@+id/et_custom_2"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:text="최소세기 :"
+                android:textColor="#000000"
+                android:textSize="60px" />
+
+            <EditText
+                android:id="@+id/et_custom_3"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:text="최대세기 :"
+                android:textColor="#000000"
+                android:textSize="60px" />
+
+            <EditText
+                android:id="@+id/et_custom_4"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:text="갱신유무 :"
+                android:textColor="#000000"
+                android:textSize="60px" />
+
+            <EditText
+                android:id="@+id/et_custom_5"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:text="갱신온도 :"
+                android:textColor="#000000"
+                android:textSize="60px" />
+
+            <EditText
+                android:id="@+id/et_custom_6"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:text="갱신파워 :"
+                android:textColor="#000000"
+                android:textSize="60px" />
+
+            <EditText
+                android:id="@+id/et_custom_7"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_custom_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="다음단계" />
+
+
+</LinearLayout>
+

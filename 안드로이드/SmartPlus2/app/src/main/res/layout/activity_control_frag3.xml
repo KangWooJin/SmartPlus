@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="seose.com.sam.ControlFrag3">
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:id="@+id/iv_frag3_mic"
+        android:src="@drawable/n_mic"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="800px"
+        android:layout_height="800px"
+        android:id="@+id/iv_frag3_round"
+        android:src="@drawable/nz_round"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tv_frag3_txt"
+        android:layout_below="@+id/iv_frag3_round"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="200px"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/bt_quick_tu"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@drawable/n_up" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="온\n도"
+            android:textSize="70px" />
+
+        <ImageView
+            android:id="@+id/bt_quick_td"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@drawable/n_down" />
+
+        <LinearLayout
+            android:layout_width="3px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:background="#ff457eff"
+
+            ></LinearLayout>
+
+        <ImageView
+            android:id="@+id/bt_quick_po"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:src="@drawable/power" />
+
+        <LinearLayout
+            android:layout_width="3px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:background="#ff457eff"
+
+        ></LinearLayout>
+
+        <ImageView
+            android:id="@+id/bt_quick_pu"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@drawable/n_up" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="세\n기"
+            android:textSize="70px" />
+
+        <ImageView
+            android:id="@+id/bt_quick_pd"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@drawable/n_down" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

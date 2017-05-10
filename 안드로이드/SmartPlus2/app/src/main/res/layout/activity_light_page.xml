@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="seose.com.sam.AddPage1Activity">
+
+    <include
+        android:id="@+id/in_main_titlebar"
+        layout="@layout/titlebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_lightpage_button"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/a_lighnt02" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25px"
+        android:text="일간 총 사용량은"
+        android:id="@+id/tv_light_type"
+        android:textSize="100px"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25px"
+        android:textStyle="bold"
+        android:text=""
+        android:textColor="#ff0094b0"
+        android:textSize="170px"
+        android:id="@+id/tv_light_time"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입니다"
+        android:textSize="100px"
+        android:layout_marginBottom="360px"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+class Tag
+{
+public:
+
+	int SET_SETTING;
+	int DELETE_AIRC;
+
+
+
+	int	POWER_ON;
+	int TEMPER_UP;
+	int	TEMPER_DOWN;
+	int	POWER_UP;
+	int	POWER_DOWN;
+	int GET_SETTING;
+	int GET_IS_ON;
+	int	GET_AIRC_USE_TIME;
+	int GET_LIGHT_TIME;
+
+	int TURN_LIGHT;
+
+
+
+	Tag()
+	{
+		SET_SETTING = 2;
+		DELETE_AIRC = 3;
+		GET_SETTING = 4;
+		GET_IS_ON = 5;
+		GET_AIRC_USE_TIME = 6;
+		GET_LIGHT_TIME = 7;
+
+
+		POWER_ON=10;
+		TEMPER_UP=11;
+		TEMPER_DOWN=12;
+		POWER_UP=13;
+		POWER_DOWN=14;
+
+		TURN_LIGHT = 20;
+
+	}
+
+};
+

@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="900px"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25px"
+            android:text="일간 총 사용량은"
+            android:id="@+id/tv_cf4_type"
+            android:textSize="100px"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25px"
+            android:textStyle="bold"
+            android:text=""
+            android:textColor="#ff0094b0"
+            android:textSize="170px"
+            android:id="@+id/tv_cf4_time"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입니다"
+            android:textSize="100px"
+            android:layout_marginBottom="360px"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="50px"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일간"
+            android:gravity="center"
+            android:textSize="80px"
+            android:layout_weight="1"
+            android:textColor="#ff0094b0"
+            android:id="@+id/tv_frag4_day" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주간"
+            android:gravity="center"
+            android:textSize="80px"
+            android:layout_weight="1"
+            android:textColor="#ff0094b0"
+            android:id="@+id/tv_frag4_week" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="월간"
+            android:gravity="center"
+            android:textSize="80px"
+            android:layout_weight="1"
+            android:textColor="#ff0094b0"
+            android:id="@+id/tv_frag4_month" />
+    </LinearLayout>
+
+</RelativeLayout>

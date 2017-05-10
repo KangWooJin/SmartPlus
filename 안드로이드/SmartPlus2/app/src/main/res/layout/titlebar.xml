@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160px"
+    android:background="#ff00a5c4"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="15px"
+    android:weightSum="10">
+
+
+    <TextView
+        android:id="@+id/tv_titlebar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="SmartPlus"
+        android:textColor="#ffffff"
+        android:textSize="70px" />
+
+
+    <ImageView
+        android:id="@+id/iv_titlebar_back"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/n_back" />
+
+
+    <ImageView
+        android:id="@+id/iv_titlebar_plus"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/n_plus"
+        android:visibility="invisible" />
+
+</RelativeLayout>
